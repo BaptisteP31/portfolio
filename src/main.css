@@ -3,6 +3,11 @@
     src: url(assets/fonts/Poppins-Regular.ttf);
 }
 
+@font-face {
+    font-family: Recursive Regular;
+    src: url(assets/fonts/Recursive-regular.ttf);
+}
+
 :root {
     --primary: rgb(87, 95, 207);
     --text-primary: white;
@@ -10,8 +15,16 @@
 
 body, html {
     margin: 0 0 0 0;
-    font-family: Poppins;
+    font-family: Recursive;
 
+    /*
     background: rgb(238,174,202);
     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    */
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 90%;
+    padding: 0 1.0875rem 1.45rem;
 }

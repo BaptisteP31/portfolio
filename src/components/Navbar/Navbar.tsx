@@ -1,6 +1,6 @@
 import './Navbar.css';
 import { NavItem } from './NavItem';
-import { useState, useEffect } from 'react';
+// import { useState, useEffect } from 'react';
 
 const links = [
     {
@@ -10,6 +10,7 @@ const links = [
 ]
 
 export function Navabar() {
+    /*
     const [scrollPosition, setScrollPosition] = useState(0);
 
     useEffect(() => {
@@ -25,9 +26,11 @@ export function Navabar() {
     }, []);
 
     const isScrolled = scrollPosition > 0;
+    */
 
     return (
-        <div className={`navbar ${isScrolled ? 'scrolled' : ''}`}>
+        //<div className={`navbar *${isScrolled ? 'scrolled' : ''}*`}>
+        <div className={`navbar`}>
             <ul>
                 {links.map((link) => NavItem({name:link.name, link:link.link}))}
             </ul>
