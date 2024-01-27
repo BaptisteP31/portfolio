@@ -7,15 +7,14 @@
     right: 0;
 
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    align-items: right;
+    justify-content: flex-end;
 
-    background: rgba(87, 95, 207, 0.5);
+    background: #fffddc;
     backdrop-filter: blur(10px);
-
-    color: var(--text-primary);
     
     padding: 10px 10px 10px 10px;
+    color: black;
     
     font-size: large;
     text-align: right;
@@ -26,10 +25,6 @@
 .scrolled {
     padding-top: 0;
     background-color: transparent;
-}
-
-p {
-    text-align: left;
 }
 
 ul {
@@ -44,5 +39,5 @@ a {
 }
 
 a:visited {
-    color: var(--text-primary);
+    color: black;
 }
