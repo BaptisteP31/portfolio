@@ -1,0 +1,20 @@
+.my-projects-presentation {
+    text-align: left;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.my-projects-presentation h1 {
+    font-size: 400%;
+    font-weight: 600;
+    padding: 0 0 0 0;
+    margin: 10px 0 10px 0;
+
+    text-transform: uppercase;
+}
+
+.my-projects-presentation p {
+    margin: 0 0 20px 0;
+}
