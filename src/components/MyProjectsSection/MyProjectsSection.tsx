@@ -5,6 +5,8 @@ import { AdeVisualizer } from './Projects/AdeVisualizer/AdeVisualizer';
 import { MKPJ } from './Projects/MKPJ/MKPJ';
 import { MasswordPanager } from './Projects/MasswordPananger/MasswordPanager';
 
+const myProjectsText = 'Rien que pour vous, voici quelques projets que j\'ai réalisé. Il y a des projets que j\'ai fait pour l\'école et d\'autres pour moi et certains sont même en cours de développement.';
+
 export function MyProjectSection() {
     return (
         <>
@@ -15,7 +17,7 @@ export function MyProjectSection() {
                             <div className='container my-projects-presentation'>
                                 <h1>Mes projets</h1>
                                 <p>
-                                    Here are some of my projects that I have worked on. I have done some projects for school and some for myself.
+                                    {myProjectsText}
                                 </p>
                             </div>
                         ]}

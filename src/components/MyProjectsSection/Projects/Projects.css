@@ -6,3 +6,9 @@
 
     object-fit: cover;
 }
+
+@media (min-width: 1600px) {
+    .project-container img {
+        max-width: 70%;
+    }
+}
