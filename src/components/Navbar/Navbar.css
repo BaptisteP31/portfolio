@@ -1,0 +1,48 @@
+@import url(../../main.css);
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background: rgba(87, 95, 207, 0.5);
+    backdrop-filter: blur(10px);
+
+    color: var(--text-primary);
+    
+    padding: 10px 10px 10px 10px;
+    
+    font-size: large;
+    text-align: right;
+
+    transition: all 0.5s ease-in-out;
+}
+
+.scrolled {
+    padding-top: 0;
+    background-color: transparent;
+}
+
+p {
+    text-align: left;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+a:visited {
+    color: var(--text-primary);
+}

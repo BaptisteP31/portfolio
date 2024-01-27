@@ -1,0 +1,17 @@
+@font-face {
+    font-family: Poppins;
+    src: url(assets/fonts/Poppins-Regular.ttf);
+}
+
+:root {
+    --primary: rgb(87, 95, 207);
+    --text-primary: white;
+}
+
+body, html {
+    margin: 0 0 0 0;
+    font-family: Poppins;
+
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
