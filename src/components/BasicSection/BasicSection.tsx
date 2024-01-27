@@ -5,7 +5,7 @@ import { Separator } from '../Separator/Separator';
 export function BasicSection(content: {leftComponent: React.JSX.Element, rightComponent: React.JSX.Element, className?: string}) {
     return (
         <>
-            <div className='container basic-section'>
+            <div className={` container basic-section ${content.className}`}>
                 <div className='left'>
                     {content.leftComponent}
                 </div>
