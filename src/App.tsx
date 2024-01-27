@@ -7,7 +7,13 @@ const App = () => {
         <div>
             <Navabar/>
             <MainSection/>
-            <BasicSection leftComponent={<p>Left component</p>} rightComponent={<p>Right component</p>}/>
+            <BasicSection components={
+                [
+                    <p>test</p>,
+                    <p>test</p>,
+                    <p>test</p>,
+                ]
+            }/>
             <div style={{height: "2000px"}}></div>
         </div>
     );
