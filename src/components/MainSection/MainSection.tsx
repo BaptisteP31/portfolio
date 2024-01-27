@@ -5,7 +5,7 @@ import { BasicSection } from '../BasicSection/BasicSection';
 export function MainSection() {
     return (
         <>
-            <BasicSection className='main-section'
+            <BasicSection className='main-section container'
 
             components={[
                 <div className='main-section-left'>
@@ -18,7 +18,7 @@ export function MainSection() {
                     </p>
                 </div>,
                 
-                <div className='main-section-right'>
+                <div className='main-section-right container'>
                     <img src={IMAGES.rightDecoration} alt='right-decoration'/>
                 </div>
             ]}
